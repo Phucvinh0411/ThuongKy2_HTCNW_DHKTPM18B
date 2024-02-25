@@ -1,0 +1,129 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+.wrapper{
+    width: 960px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../hinh/Image20240225154932.png");
+    padding: 10px;
+}
+
+.container{
+    /* margin: 0 10px; */
+    border: 2px solid white;
+}
+
+.color-red{
+    color: red;
+}
+/* nav */
+nav{
+    background-color: #ECDEEF;
+}
+nav .menu{
+    float: left;
+}
+nav .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav .menu ul li{
+    float: left;
+    padding: 10px
+    
+}
+
+nav .menu ul li a{
+    font-weight: 700;
+}
+nav .search{
+    float: right;
+    padding: 10px;
+}
+nav .search label{
+   font-weight: 700;
+}
+nav .search button{
+    color: white;
+    background-color: #0796F3;
+    border-radius: 5px 0 5px 0;
+}
+
+/* header */
+header img{
+    width: 940px;
+}
+
+
+section{
+    text-align: center;
+    float: left;
+    width: 70%;
+    background-color: #B0DFE5;
+    height: 420px;
+}
+section h2{
+    padding: 20px;
+}
+section .slit .secItem{
+    text-align: left;
+    width: 50%;
+    padding: 0 20px;
+    height: 100%;
+}
+section .slit .desc{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+section .slit .formIC{
+    float: left;
+    border: 2px solid rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+}
+section .slit .formIC .row{
+    padding: 10px 0;
+}
+
+section .slit .formIC .row input{
+    border: 2px solid rgba(0, 0, 0, 0.729);
+    border-radius: 5px;
+}
+aside{
+    height: 420px;
+    float: right;
+    width: 30%;
+    background-color: white;
+}
+aside .item{
+    padding: 10px;
+}
+
+aside .item p{
+    text-align: center;
+    border-bottom: 2px dotted black;
+}
+aside .item img{
+    width: 100%;
+
+}
+footer{
+    background-color: #CBCC66;
+    height: 50px;
+}
+footer span{
+    padding-top: 10px;
+}
+footer .sp2{
+    float: right;
+}
